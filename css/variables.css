@@ -1,0 +1,11 @@
+:root {
+  /* Couleurs */
+  --color-dark: #0c1031;
+  --color-accent: #cafc00;
+  --color-light: #d9dcf7;
+  --color-background: #fafafc;
+  --color-white: #ffffff;
+
+  /* Typographie */
+  --font-main: "Montserrat", sans-serif;
+}
