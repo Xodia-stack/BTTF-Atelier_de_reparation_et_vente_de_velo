@@ -1,70 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BTTF. — Atelier de réparation et vente de vélo</title>
-     <meta
+    <meta
       name="description"
       content="BTTF. — Atelier de réparation et vente de vélos à Montreuil. Réparation express, entretien et pièces détachées."
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
+      <div>
         <a href="#" class="logo">
-            <img 
-            src="" 
+          <img
+            src=""
             alt="BTTF. — Bike to the future"
             width="100"
-            height="100"/>
+            height="100"
+          />
         </a>
         <nav>
-            <ul>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Horaire & contact</a></li>
-            </ul>
-            <p>Prendre rendez-vous</p>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Horaire & contact</a></li>
+          </ul>
+          <p>Prendre rendez-vous</p>
         </nav>
+      </div>
     </header>
 
     <main>
-        <p>Atelier de réparation et vente de vélos</p>
-        <h1>Bike to<br />the <em>future.</em></h1>
-        <p>
-            L'atelier qui remet votre vélo en selle. Réparation express,
-            entretien et pièces détachées, à deux pas de chez vous.
-        </p>
-        <a href="">prendre rendez-vous</a>
-        <a href="">Voir nos services</a>
-        <svg 
-            class="bike-icon"
-            id="Graphic_element" xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 606.2505 430.2612">
-            <circle cx="459.8305" cy="283.8411" r="137.4201" style="fill:none; stroke:currentColor; stroke-miterlimit:10; stroke-width:18px;"/>
-            <circle cx="146.4201" cy="283.8411" r="137.4201" style="fill:none; stroke:currentColor; stroke-miterlimit:10; stroke-width:18px;"/>
-            <polyline points="459.8305 283.8421 301.1503 9 459.8305 9" style="fill:none; stroke:currentColor; stroke-miterlimit:10; stroke-width:18px;"/>
-            <polyline points="345.114 85.1472 146.4201 283.8411 146.4201 85.1472" style="fill:none; stroke:currentColor; stroke-miterlimit:10; stroke-width:18px;"/>
-        </svg>
+      <section aria-labelledby="hero-title">
+        <div class="hero">
+          <div class="bike">
+            <p>Atelier de réparation &amp; vente de vélos</p>
+            <h1 id="hero-title">Bike to<br />the <em>future.</em></h1>
+            <p>
+              L'atelier qui remet votre vélo en selle. Réparation express,
+              entretien et pièces détachées, à deux pas de chez vous.
+            </p>
+            <div>
+              <a href="#rdv" class="rdv">Prendre rendez-vous</a>
+              <a href="#services" class="nos-services">Voir nos services</a>
+            </div>
+          </div>
+
+          <div aria-hidden="true">
+            <!-- possible de le remplacer par une balise img + lien vers fichier svg -->
+            <svg
+              class="bike-icon"
+              viewBox="0 0 606.2505 430.2612"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              focusable="false"
+            >
+              <circle
+                cx="459.8305"
+                cy="283.8411"
+                r="128.4201"
+                stroke="currentColor"
+                stroke-width="18"
+              />
+              <circle
+                cx="146.4201"
+                cy="283.8411"
+                r="128.4201"
+                stroke="currentColor"
+                stroke-width="18"
+              />
+              <polyline
+                points="459.8305 283.8421 301.1503 9 459.8305 9"
+                stroke="currentColor"
+                stroke-width="18"
+                stroke-linejoin="round"
+              />
+              <polyline
+                points="345.114 85.1472 146.4201 283.8411 146.4201 85.1472"
+                stroke="currentColor"
+                stroke-width="18"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <p>2026 BTTF. — Bike to the future.</p>
+      <div>
+        <a href="#top" aria-label="BTTF. — Retour à l'accueil">
+          <!-- possible de le code du fichier svg -->
+          <img
+            src="img/logo-bttf.svg"
+            alt="BTTF. — Bike to the future"
+            width="107"
+            height="25"
+          />
+        </a>
+        <nav aria-label="Navigation de pied de page">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p>&copy; 2026 BTTF. — Bike to the future.</p>
     </footer>
-
-</body>
+  </body>
 </html>
